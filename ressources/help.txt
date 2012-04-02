@@ -1,0 +1,17 @@
+JustDooIt commands
+
+Command 			    Shortcut 		Description
+add [date and description] 		a 	Adds a new Task to JustDooIt
+search [keyword] 			s 	Searches the tasks related to the keyword
+display [task Id] 			d	Displays the task having given ID
+display [task Id list or range] 	d	Displays the task having ID in the list or range
+display [date range] 			d	Display tasks within the given date range
+modify [task Id] [new description] 	m	Change the description of the corresponding task
+reschedule [task ID] [new date] 	r	Change the schedule of the task
+todo 					t	Displays the tasks to be done today
+delete [task ID] 			k	Delete the task corresponding to the task ID
+done [task ID] 				x	Mark the task corresponding to the ID as done
+notdone [task ID]			o	Mark the task corresponding to the ID as not done
+help 					h	Displays help text file
+undo					<	Undo the last JustDooIt command
+redo					>	Redo the last undone action
